@@ -276,7 +276,7 @@ def scrap():
             reviews=[]
             """Conncecting with DataBase"""
             try:
-                db_connetion=mg.MongoClient("mongodb://localhost:27017/")
+                db_connetion=mg.MongoClient("mongodb+srv://akshay:123456789a@@cluster0.9wdaj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
                 # print(db_connetion.test)
                 DBlogger.debug('Successfully Connected with MongoDB !')
 
